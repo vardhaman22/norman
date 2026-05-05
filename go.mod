@@ -4,6 +4,11 @@ go 1.26.0
 
 toolchain go1.26.2
 
+replace (
+	github.com/rancher/lasso => github.com/vardhaman22/lasso v0.0.0-20260505105142-a58cfbb7f92a
+	github.com/rancher/wrangler/v3 => github.com/vardhaman22/wrangler/v3 v3.0.0-20260505111034-37cdd9e68bac
+)
+
 require (
 	github.com/ghodss/yaml v1.0.0
 	github.com/gorilla/websocket v1.5.4-0.20250319132907-e064f32e3674
